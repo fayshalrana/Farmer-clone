@@ -4,5 +4,8 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "public/index.php" }
-  ]
+  ],
+  "env": {
+    "PHP_VERSION": "8.3"
+  }
 }
