@@ -1,7 +1,7 @@
-/* Import custom styles first */
-@import '../../public/assets/css/style.css';
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Import custom styles first */
+@import '../../public/assets/css/style.css';

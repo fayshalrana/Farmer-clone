@@ -16,9 +16,6 @@
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Styles / Scripts -->
-    @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-    @else
     <style>
     /* ! tailwindcss v3.4.1 | MIT License | https://tailwindcss.com */
     *,
@@ -907,7 +904,6 @@
         }
     }
     </style>
-    @endif
 </head>
 
 <body class="font-sans antialiased dark:bg-black dark:text-white/50">
