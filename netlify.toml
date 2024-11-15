@@ -1,8 +1,9 @@
-command = "npm run build"
-publish="/build'
-base = "/"
+[build]
+  command = "npm run build"
+  publish = "public"  # The folder where Netlify will look for the site to serve
+  base = "/"          # Set to the root if this is where your project is located
 
 [[redirects]]
   from = "/*"
-  to = "/public/index.php"
+  to = "/index.php"
   status = 200
