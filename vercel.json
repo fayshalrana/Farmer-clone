@@ -1,17 +1,25 @@
 {
   "version": 2,
   "builds": [
-    { "src": "public/**/*", "use": "@vercel/static" },
-    { "src": "api/**/*.php", "use": "vercel-php@0.6.0" },
-    { "src": "artisan", "use": "@vercel/php" }
+    {
+      "src": "public/**/*",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/**/*.php",
+      "use": "vercel-php@0.6.0"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/public/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
   ],
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://farmer-clone.vercel.app",
+    "APP_URL": "https://your-production-url.vercel.app",
     "APP_KEY": "base64:YOUR_APP_KEY_HERE",
     "APP_CONFIG_CACHE": "/tmp/config.php",
     "APP_EVENTS_CACHE": "/tmp/events.php",
