@@ -23,5 +23,5 @@
 @endsection
 
 @section('scripts')
-  <script src="{{URL::asset('assets/js/home.js')}}"></script>
+  <script src="{{secure_asset('assets/js/home.js')}}"></script>
 @endsection

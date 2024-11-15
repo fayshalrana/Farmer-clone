@@ -18,7 +18,7 @@
         <div class="page_links">
             <div class="company_info">
                 <div class="logo">
-                    <a href="/ui/home"><img src="{{URL::asset('assets/img/logo.png')}}" alt="logo">Chronify</a>
+                    <a href="/ui/home"><img src="{{secure_asset('assets/img/logo.png')}}" alt="logo">Chronify</a>
                 </div>
                 <p>Chronify, the ultimate solution for SAAS and startup project websites. Empower your ideas with
                     seamless customization using our comprehensive range of pre-designed components.</p>

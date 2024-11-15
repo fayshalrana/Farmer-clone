@@ -34,7 +34,7 @@ $newsItems = [
         <a href="{{ $news['link'] }}">
             <div class="news_item">
                 <div class="news_img">
-                    <img src="{{ URL::asset($news['image']) }}" alt="logo">
+                    <img src="{{ secure_asset($news['image']) }}" alt="logo">
                 </div>
                 <div class="news_info">
                     <h4>{{ $news['category'] }}</h4>

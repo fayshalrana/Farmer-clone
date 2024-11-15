@@ -13,17 +13,17 @@
             <br><br>Chronify — Your Ultimate Framer Template!</p>
             <div class="reviews-area w-100">
                 <div class="reviews-inner-area">
-                <div class="img-area"><img class="" src="{{URL::asset('assets/img/r1.png')}}" alt="" srcset=""></div>
-                <div class="img-area"><img class="" src="{{URL::asset('assets/img/r2.png')}}" alt="" srcset=""></div>
-                <div class="img-area"><img class="" src="{{URL::asset('assets/img/r3.png')}}" alt="" srcset=""></div>
-                <div class="img-area"><img class="" src="{{URL::asset('assets/img/r4.png')}}" alt="" srcset=""></div>
+                <div class="img-area"><img class="" src="{{secure_asset('assets/img/r1.png')}}" alt="" srcset=""></div>
+                <div class="img-area"><img class="" src="{{secure_asset('assets/img/r2.png')}}" alt="" srcset=""></div>
+                <div class="img-area"><img class="" src="{{secure_asset('assets/img/r3.png')}}" alt="" srcset=""></div>
+                <div class="img-area"><img class="" src="{{secure_asset('assets/img/r4.png')}}" alt="" srcset=""></div>
                 </div>
                 <p>9k+ reviews (4.9 of 5)</p>
             </div>
         </div>
     </div>
     <div class="content-area hero-bottom-area fade-animation-load-up-slow">
-        <img class="img-floatr" src="{{URL::asset('assets/img/hero-img.svg')}}" alt="" srcset="">
+        <img class="img-floatr" src="{{secure_asset('assets/img/hero-img.svg')}}" alt="" srcset="">
     </div>
     <div class="bg-shape">
     </div>
@@ -38,7 +38,7 @@
                 <p>Seamlessly schedule meetings with ease and efficiency, eliminating any unnecessary complications.</p>
             </div>
             <div class="bottom-feature-card-inner">
-                <img class="" src="{{URL::asset('assets/img/feature-1.svg')}}" alt="" srcset="">
+                <img class="" src="{{secure_asset('assets/img/feature-1.svg')}}" alt="" srcset="">
             </div>
         </div>
         <div class="topright-feature-card">
@@ -49,7 +49,7 @@
                 </div>
                 <div class="tr-right-area">
                     <div class="tr-right-area-inner">
-                        <img class="" src="{{URL::asset('assets/img/feature-2.svg')}}" alt="" srcset="">
+                        <img class="" src="{{secure_asset('assets/img/feature-2.svg')}}" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                 </div>
                 <div class="tr-right-area">
                     <div class="tr-right-area-inner">
-                        <img class="" src="{{URL::asset('assets/img/feature-3.svg')}}" alt="" srcset="">
+                        <img class="" src="{{secure_asset('assets/img/feature-3.svg')}}" alt="" srcset="">
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
             </div>
             <div class="fc-bottom-area">
                 <div class="fc-bottom-area-inner">
-                    <img class="" src="{{URL::asset('assets/img/feature-4.svg')}}" alt="" srcset="">
+                    <img class="" src="{{secure_asset('assets/img/feature-4.svg')}}" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -85,7 +85,7 @@
             </div>
             <div class="fc-bottom-area">
                 <div class="fc-bottom-area-inner">
-                    <img class="" src="{{URL::asset('assets/img/feature-5.svg')}}" alt="" srcset="">
+                    <img class="" src="{{secure_asset('assets/img/feature-5.svg')}}" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@
             </div>
             <div class="fc-bottom-area">
                 <div class="fc-bottom-area-inner">
-                    <img class="" src="{{URL::asset('assets/img/feature-6.svg')}}" alt="" srcset="">
+                    <img class="" src="{{secure_asset('assets/img/feature-6.svg')}}" alt="" srcset="">
                 </div>
             </div>
         </div>
@@ -111,7 +111,7 @@
     <div class="sec-features-container">
         <div class="secfeature fade-animation">
             <div class="icon icon-one">
-                <img src="{{URL::asset('assets/img/sf-1.svg')}}" alt="Easy Customization Icon">
+                <img src="{{secure_asset('assets/img/sf-1.svg')}}" alt="Easy Customization Icon">
             </div>
             <div class="secfeature-bottom">
             <h3>Easy Customization</h3>
@@ -120,7 +120,7 @@
         </div>
         <div class="secfeature fade-animation">
             <div class="icon icon-two">
-                <img src="{{URL::asset('assets/img/sf-2.svg')}}" alt="Versatile Components Icon">
+                <img src="{{secure_asset('assets/img/sf-2.svg')}}" alt="Versatile Components Icon">
             </div>
             <div class="secfeature-bottom">
             <h3>Versatile Components</h3>
@@ -129,7 +129,7 @@
         </div>
         <div class="secfeature fade-animation">
             <div class="icon icon-three">
-                <img src="{{URL::asset('assets/img/sf-3.svg')}}" alt="Seamless Integration Icon">
+                <img src="{{secure_asset('assets/img/sf-3.svg')}}" alt="Seamless Integration Icon">
             </div>
             <div class="secfeature-bottom">
             <h3>Seamless Integration</h3>
@@ -138,7 +138,7 @@
         </div>
         <div class="secfeature fade-animation">
             <div class="icon icon-four">
-                <img src="{{URL::asset('assets/img/sf-4.svg')}}" alt="Enhanced Experience Icon">
+                <img src="{{secure_asset('assets/img/sf-4.svg')}}" alt="Enhanced Experience Icon">
             </div>
             <div class="secfeature-bottom">
             <h3>Enhanced Experience</h3>

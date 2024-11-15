@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{secure_asset('assets/css/style.css') }}">
     @yield('styles')
 </head>
 
@@ -21,7 +21,7 @@
     <div id="smooth-wrapper">
         <div id="smooth-content">
             <div class="main_container">
-        
+
                 <div class="content_container w-100">
                     @yield('content')
                 </div>
@@ -33,12 +33,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="{{URL::asset('assets/lib/gsap/gsap.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/lib/gsap/ScrollTrigger.min.js')}}"></script>
-    <script type="text/javascript" src="{{URL::asset('assets/lib/gsap/ScrollSmoother.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/lib/gsap/gsap.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/lib/gsap/ScrollTrigger.min.js')}}"></script>
+    <script type="text/javascript" src="{{secure_asset('assets/lib/gsap/ScrollSmoother.min.js')}}"></script>
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script> --}}
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script> --}}
-    <script src="{{URL::asset('assets/js/common.js')}}"></script>
+    <script src="{{secure_asset('assets/js/common.js')}}"></script>
     @yield('scripts')
 </body>
 

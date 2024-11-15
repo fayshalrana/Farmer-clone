@@ -5,49 +5,49 @@
             <ul class="firstcl">
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-1.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-1.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-2.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-2.svg')}}">
                     </div>
                     <p>Podium</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-3.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-3.svg')}}">
                     </div>
                     <p>Clickup</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-4.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-4.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-1.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-1.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-2.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-2.svg')}}">
                     </div>
                     <p>Podium</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-3.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-3.svg')}}">
                     </div>
                     <p>Clickup</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-4.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-4.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
@@ -55,49 +55,49 @@
             <ul class="middlecl">
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-5.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-5.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-6.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-6.svg')}}">
                     </div>
                     <p>Podium</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-2.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-2.svg')}}">
                     </div>
                     <p>Clickup</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-4.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-4.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-5.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-5.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-6.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-6.svg')}}">
                     </div>
                     <p>Podium</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-2.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-2.svg')}}">
                     </div>
                     <p>Clickup</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-4.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-4.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
@@ -105,49 +105,49 @@
             <ul class="lastcl">
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-7.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-7.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-8.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-8.svg')}}">
                     </div>
                     <p>Podium</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-9.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-9.svg')}}">
                     </div>
                     <p>Clickup</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-4.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-4.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-7.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-7.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-8.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-8.svg')}}">
                     </div>
                     <p>Podium</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-9.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-9.svg')}}">
                     </div>
                     <p>Clickup</p>
                 </li>
                 <li>
                     <div class="icon">
-                        <img src="{{URL::asset('assets/img/clogo-4.svg')}}">
+                        <img src="{{secure_asset('assets/img/clogo-4.svg')}}">
                     </div>
                     <p>Canvas</p>
                 </li>
@@ -160,7 +160,7 @@
                     superior integrations.</p>
                 <div class="">
                     <a href="#" class="client-btn">Learn More <img
-                            src="{{URL::asset('assets/img/arrow-icon.svg')}}"></a>
+                            src="{{secure_asset('assets/img/arrow-icon.svg')}}"></a>
                 </div>
         </div>
         <div class="client-overlay"></div>

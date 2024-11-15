@@ -43,7 +43,7 @@ $clients = [
             <?php foreach ($clients as $client) : ?>
             <li class="item">
                 <div class="client_img">
-                    <img src="{{ URL::asset($client['image']) }}" alt="logo">
+                    <img src="{{ secure_asset($client['image']) }}" alt="logo">
                 </div>
                 <div class="item_text">
                     <div class="client_info">
@@ -67,7 +67,7 @@ $clients = [
                     </div>
                     <div class="client_info_footer">
                         <div class="client_logo">
-                            <img src="{{ URL::asset($client['brand']) }}" alt="logo">
+                            <img src="{{ secure_asset($client['brand']) }}" alt="logo">
                         </div>
                         <div class="client_name">
                             <h3><?php echo $client['name']; ?></h3>

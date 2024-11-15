@@ -65,13 +65,13 @@ $buttonContent = [
         </div>
         <div class="control_img fade-animation">
             <div class="img_box">
-                <img src="{{ URL::asset('assets/img/control_one.svg') }}" alt="control-one-image">
+                <img src="{{ secure_asset('assets/img/control_one.svg') }}" alt="control-one-image">
             </div>
             <div class="img_box">
-                <img src="{{ URL::asset('assets/img/control_two.svg') }}" alt="control-one-image">
+                <img src="{{ secure_asset('assets/img/control_two.svg') }}" alt="control-one-image">
             </div>
             <div class="img_box">
-                <img src="{{ URL::asset('assets/img/control_three.svg') }}" alt="control-one-image">
+                <img src="{{ secure_asset('assets/img/control_three.svg') }}" alt="control-one-image">
             </div>
 
 
