@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Routing\Controller as BaseController;
 
-class Controller extends BaseController
+class UiController extends BaseController
 {
     public function welcomePage() {
         return view('welcome');
