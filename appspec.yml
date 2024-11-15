@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /var/www/html/orderific-website-ui
+file_exists_behavior: OVERWRITE
+hooks:
+  BeforeInstall:
+    - location: dummy.sh
+      timeout: 5
+  AfterInstall:
+    - location: change_permission.sh
+      timeout: 60
+  ApplicationStart:
+    - location: build.sh
+      timeout: 180
+      runas: ubuntu
+  ValidateService:
+    - location: change_permission.sh
+      timeout: 60

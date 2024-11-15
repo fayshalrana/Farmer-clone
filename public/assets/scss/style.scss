@@ -1,0 +1,44 @@
+// Global Specific
+@import './settings';
+@import './fonts';
+@import './mixins';
+
+
+// Page Specific
+@import './components/_page.scss';
+@import './components/header.scss';
+@import './components/footer.scss';
+@import './components/home.scss';
+@import './components/about.scss';
+
+
+p{
+    font-family: "Satoshi", "Satoshi Placeholder", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 150%;
+    text-align: left;
+    @media only screen and (max-width: 1235.98px) {
+        font-size: 13px;
+    }
+}
+.section-title{
+    @include section-title;
+    text-align: center;
+}
+.fade-in-from-left {
+    opacity: 0;
+    transform: translateX(-30px); /* Start position for the animation */
+}
+.fade-in-from-right {
+    opacity: 0;
+    transform: translateX(30px); /* Start position for the animation */
+}
+
+@media (max-width: 1235px) {
+    .fade-in-from-left, .fade-in-from-right {
+        transform: translateX(-5vw);
+    }
+}

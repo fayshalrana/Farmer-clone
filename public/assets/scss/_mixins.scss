@@ -1,0 +1,67 @@
+@mixin common-style{
+    display: flex;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: min-content;
+}
+@mixin custom-btn{
+    font-family: "Satoshi", "Satoshi Placeholder", sans-serif;
+    border-radius: 16px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 150%;
+    color:#fff;
+    background-color: rgb(251, 85, 47);
+    transition: .5s;
+    border:none;
+    &:hover{
+        background-color:rgb(204, 59, 26);
+    }
+    span{
+        @media only screen and (max-width: 809.98px) {
+            display: none;
+        }
+    }
+}
+@mixin custom-nbg-btn{
+    font-family: "Satoshi", "Satoshi Placeholder", sans-serif;
+    border-radius: 16px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 150%;
+    color:#fff;
+    background-color: transparent;
+    transition: .5s;
+    border:none;
+    &:hover{
+        color: #020710;
+        background-color: #fff;
+    }
+}
+@mixin section-title{
+    font-family: "Satoshi", "Satoshi Placeholder", sans-serif;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 120%;
+    color:#020710;
+    @media only screen and (max-width: 1235.98px) {
+        font-size: 37px;
+        line-height: 124%;
+    }
+    @media only screen and (max-width: 809.98px) {
+        font-size: 29px;
+    }
+    span{
+        color:$theme-color;
+    }
+}

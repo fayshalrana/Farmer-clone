@@ -1,0 +1,171 @@
+.changing_mockup {
+    max-width: 1235px;
+    margin: 0 auto;
+    .mockup_main {
+        display: flex;
+        align-items: center;
+        gap: 96px;
+        height: min-content;
+        justify-content: flex-start;
+        overflow: visible;
+        padding: 0 16px;
+        position: relative;
+        width: 100%;
+        @media only screen and (max-width: 809.98px) {
+            padding: 0 0 48px;
+        }
+        @media only screen and (max-width: 1235.98px) {
+            flex-direction: column;
+            flex-wrap: wrap;
+            padding: 0 16px;
+            gap: 24px;
+        }
+        .mockup_img {
+            flex: none;
+            height: 578px;
+            overflow: hidden;
+            position: relative;
+            width: 586px;
+            @media only screen and (max-width: 809.98px) {
+                height: 372px;
+                width: 100%;
+            }
+            @media (min-width: 810px) and (max-width: 1235.98px) {
+                height: 482px;
+                width: 97%;
+            }
+            .shadow_box {
+                background-color: #f7f9fc;
+                border-radius: 32px;
+                bottom: 0;
+                flex: none;
+                height: 336px;
+                left: 0;
+                overflow: visible;
+                position: absolute;
+                right: 0;
+                @media only screen and (max-width: 809.98px) {
+                    height: 280px;
+                }
+            }
+            .shadow_img {
+                bottom: -276px;
+                flex: none;
+                height: 758px;
+                left: calc(50.00000000000002% - 373px / 2);
+                position: absolute;
+                width: 373px;
+                @media only screen and (max-width: 809.98px) {
+                    width: 319px;
+                    height: 648px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+                .frame {
+                    flex: none;
+                    height: 758px;
+                    left: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    border: 20px solid rgb(2, 7, 16);
+                    border-radius: 68px;
+                    opacity: 1;
+                    .Dynamic_Island {
+                        background-color: rgb(2, 7, 16);
+                        height: 32px;
+                        left: calc(49.86595174262737% - 106px / 2);
+                        overflow: visible;
+                        position: absolute;
+                        top: 10px;
+                        width: 106px;
+                        border-radius: 200px;
+                    }
+                }
+            }
+        }
+        .mockup_text {
+            align-items: flex-start;
+            display: flex;
+            flex-direction: column;
+            gap: 48px;
+            height: min-content;
+            padding: 32px 0;
+            @media only screen and (max-width: 1235.98px) {
+                gap: 16px;
+                padding: 0;
+                width: 100%;
+                align-items: center;
+            }
+            h2 {
+                font-size: 57px;
+                font-weight: 700;
+                color: black;
+                line-height: 1.2em;
+                @media only screen and (max-width: 809.98px) {
+                    font-size: 29px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                @media (min-width: 810px) and (max-width: 1235.98px) {
+                    font-size: 37px;
+                    font-weight: 600;
+                    text-align: center;
+                }
+                span {
+                    color: #fb552f;
+                }
+            }
+            p {
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 22.5px;
+                color: rgb(122, 128, 137);
+                text-align: left;
+                @media only screen and (max-width: 809.98px) {
+                    font-size: 13px;
+                    text-align: center;
+                }
+            }
+            .action_buttons {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+                height: min-content;
+                justify-content: flex-start;
+                padding: 0;
+                width: min-content;
+                @media only screen and (max-width: 809.98px) {
+                    width: 100%;
+                    justify-content: center;
+                }
+                a {
+                    cursor: pointer;
+                    display: flex;
+                    flex-wrap: nowrap;
+                    gap: 8px;
+                    height: min-content;
+                    justify-content: center;
+                    overflow: hidden;
+                    padding: 12px 20px;
+                    text-decoration: none;
+                    width: min-content;
+                    border-radius: 16px;
+                    border: 1px solid rgb(242, 243, 248);
+                    white-space: nowrap;
+                    transition: all .3s ease-in-out;
+                    &:hover{
+                        background-color: rgb(247, 249, 252);;
+                    }
+                    span{
+                        font-size: 15px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,281 @@
+.control_everything {
+    gap: 10px;
+    height: min-content;
+    max-width: 1236px;
+    padding: 0 16px;
+    width: 100%;
+    margin: 0 auto;
+    @media only screen and (max-width: 809.98px) {
+        padding: 0 12px;
+    }
+    .control_main {
+        display: flex;
+        align-items: flex-start;
+        flex: none;
+        gap: 60px;
+        height: min-content;
+        justify-content: space-between;
+        width: 100%;
+        @media (min-width: 810px) and (max-width: 1235.98px) {
+            align-items: flex-end !important;
+        }
+        @media only screen and (max-width: 809.98px) {
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .control_text {
+            width: 50%;
+            display: flex;
+            flex: 1 0 0px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 24px;
+            height: min-content;
+            justify-content: center;
+            @media only screen and (max-width: 809.98px) {
+                width: 100%;
+            }
+            .section_title {
+                h2 {
+                    font-size: 57px;
+                    font-weight: 700;
+                    color: black;
+                    line-height: 1.2em;
+                    padding-top: 12px;
+                    @media only screen and (max-width: 809.98px) {
+                        font-size: 29px;
+                        font-weight: 600;
+                        text-align: center;
+                        padding-top: 0;
+                    }
+                    @media (min-width: 810px) and (max-width: 1235.98px) {
+                        font-size: 37px;
+                        font-weight: 600;
+                    }
+                    span {
+                        color: #fb552f;
+                        @media only screen and (max-width: 809.98px) {
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .control_items {
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 32px;
+                height: 320px;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 48px 120px 0 0;
+                position: relative;
+                width: 554px;
+
+                @media only screen and (max-width: 809.98px) {
+                    padding: 0 24px 0 0;
+                    width: 100%;
+                    gap: 16px;
+                }
+                @media only screen and (max-width: 1235.98px) {
+                    height: 300px;
+                }
+                .control_line {
+                    align-self: stretch;
+                    flex: none;
+                    height: auto;
+                    background-color: rgb(242, 243, 248);
+                    position: relative;
+                    width: 1px;
+                    span {
+                        bottom: 175px;
+                        overflow: visible;
+                        position: absolute;
+                        right: -1px;
+                        top: 0;
+                        width: 3px;
+                        height: 80px;
+                        transition: all 0.3s ease-in-out;
+                        @media only screen and (max-width: 809.98px) {
+                            height: 70px;
+                        }
+                    }
+                    &.active-one span {
+                        background-color: #fb552f;
+                    }
+                    &.active-two span {
+                        background-color: rgb(0, 200, 44);
+                        bottom: 87px;
+                        top: 88px;
+                    }
+                    &.active-three span {
+                        background-color: rgb(173, 47, 251);
+                        bottom: 0;
+                        top: 175px;
+                    }
+                }
+                .control_buttons {
+                    align-items: flex-start;
+                    display: flex;
+                    flex: 1 0 0px;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    gap: 36px;
+                    .control_item {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        border: none;
+                        outline: none;
+                        background-color: transparent;
+                        gap: 16px;
+                        &.active {
+                            .item_text {
+                                h4 {
+                                    color: black;
+                                }
+                                p {
+                                    visibility: visible;
+                                    opacity: 1;
+                                    display: block;
+                                    padding-bottom: 1rem;
+                                    height: auto;
+                                }
+                            }
+                        }
+                        &:hover{
+                            .item_logo .icon{
+                                color:  rgb(78, 82, 87);
+                            }
+                        }
+                        .item_logo {
+                            width: 48px;
+                            height: 48px;
+                            flex: 0 0 48px;
+                            border-radius: 50%;
+                            background-color: #f7f9fc;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: relative;
+                            .circle-border {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 48px;
+                                height: 48px;
+                                circle {
+                                    stroke-dasharray: 138; /* Length of the circle's circumference */
+                                    stroke-dashoffset: 138; /* Start full circle visible */
+                                }
+                            }
+
+                            @keyframes hide-border-clockwise {
+                                to {
+                                    stroke-dashoffset: 0; /* Hides the border */
+                                }
+                            }
+                            &.active-one {
+                                .icon {
+                                    color: #fb552f;
+                                }
+                                background-color: rgba(204, 59, 26, 0.099);
+                                .circle-border {
+                                    circle {
+                                        stroke: #fb552f;
+                                        animation: hide-border-clockwise 3s linear forwards;
+                                    }
+                                }
+                            }
+                            &.active-two {
+                                .icon {
+                                    color: rgb(0, 200, 44);
+                                }
+                                background-color: rgba(0, 200, 43, 0.093);
+                                .circle-border {
+                                    circle {
+                                        stroke: rgb(0, 200, 44);
+                                        animation: hide-border-clockwise 3s linear forwards;
+                                    }
+                                }
+                            }
+                            &.active-three {
+                                .icon {
+                                    color: rgb(173, 47, 251);
+                                }
+                                background-color: rgba(173, 47, 251, 0.099);
+                                .circle-border {
+                                    circle {
+                                        stroke: rgb(173, 47, 251);
+                                        animation: hide-border-clockwise 3s linear forwards;
+                                    }
+                                }
+                            }
+                        }
+                        .item_text {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            text-align: left;
+                            gap: 8px;
+                            transition: all 0.3s ease-in-out;
+                            h4 {
+                                font-size: 19px;
+                                font-weight: 700;
+                                color: rgb(122, 128, 137);
+                                transition: all .3s ease-in-out;
+                                @media only screen and (max-width: 809.98px) {
+                                    font-size: 15px;
+                                }
+                                @media (min-width: 810px) and (max-width: 1235.98px) {
+                                }
+                                &:hover {
+                                    color: black;
+                                }
+                            }
+                            p {
+                                font-size: 15px;
+                                font-weight: 400;
+                                color: rgb(122, 128, 137);
+                                visibility: hidden;
+                                opacity: 0;
+                                height: 0;
+                                transition: all 0.3s ease-in-out;
+                                @media only screen and (max-width: 809.98px) {
+                                    font-size: 12px;
+                                }
+                                @media (min-width: 810px) and (max-width: 1235.98px) {
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .control_img {
+            background-color: rgba(231, 71, 35, 0.03);
+            border-radius: 32px;
+            max-height: 482px;
+            height: 482px;
+            overflow: hidden;
+            width: 49%;
+            @media only screen and (max-width: 809.98px) {
+                width: 100%;
+                height: max-content;
+                border-radius: 16px;
+            }
+            @media (min-width: 810px) and (max-width: 1235.98px) {
+                height: min-content;
+                width: 41%;
+                border-radius: 16px;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

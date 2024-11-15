@@ -1,0 +1,253 @@
+.footer_container {
+    width: 100%;
+    .footer_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: min-content;
+        padding: 96px 24px;
+        position: relative;
+        width: 100%;
+        background-color: rgb(2, 7, 16);
+        border-radius: 48px;
+        gap: 96px;
+        @media only screen and (max-width: 809.98px) {
+            gap: 48px;
+            padding: 24px;
+            border-radius: 32px;
+        }
+        @media (min-width:810px) and (max-width: 1235.98px) {
+            gap: 48px;
+            padding: 48px 24px;
+        }
+        .call_to_action {
+            max-width: 780px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            gap: 48px;
+            height: min-content;
+            padding:47px;
+            background-color: rgba(255, 255, 255, 0.04);
+            border-radius: 32px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            @media only screen and (max-width: 809.98px) {
+                flex-direction: column;
+                padding: 24px 16px 16px;
+                gap: 24px;
+            }
+            .call_to_action_text h4 {
+                color: white;
+                font-size: 23px;
+                font-weight: 700;
+                white-space: pre-wrap;
+                line-height: 28.52px;
+                width: 260px;
+                @media only screen and (max-width: 809.98px) {
+                    text-align: center;
+                    font-size: 18px;
+                    width: 100%;
+                }
+                @media (min-width:810px) and (max-width: 1235.98px) {
+                    font-size: 20px;
+                }
+                span {
+                    color: #fb552f;
+                }
+            }
+            form {
+                flex: 1 0 0px;
+                @media only screen and (max-width: 809.98px) {
+                    width: 100%;
+                }
+                .input_wrapper {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex: 1 0 0px;
+                    height: min-content;
+                    overflow: hidden;
+                    padding: 4px;
+                    border-radius: 16px;
+                    border: 1px solid rgba(255, 255, 255, 0.08);
+                    @media only screen and (max-width: 809.98px) {
+                        flex-direction: column;
+                        gap: 8px;
+                    }
+                    label {
+                        height: 40px;
+                        position: relative;
+                        width: 100%;
+                        input {
+                            padding: 12px;
+                            background: transparent;
+                            font-weight: 400;
+                            font-size: 14px;
+                            color: rgb(255, 255, 255);
+                            border: none;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            overflow: hidden;
+                            width: 100%;
+                            height: 100%;
+                            line-height: 1.2em;
+                        }
+                    }
+                    .action_btn {
+                        @media only screen and (max-width: 809.98px) {
+                            width: 100%;
+                        }
+                        button {
+                            height: 40px;
+                            width: 120px;
+                            font-size: 15px;
+                            font-weight: 700;
+                            @media only screen and (max-width: 809.98px) {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .page_links {
+            display: flex;
+            gap: 32px;
+            height: min-content;
+            justify-content: flex-start;
+            height: auto;
+            max-width: 1204px;
+            position: relative;
+            width: 100%;
+            @media only screen and (max-width: 1235.98px) {
+                align-items: center;
+                flex-direction: column;
+                gap: 48px;
+                width: 100%;
+            }
+            .company_info {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 24px;
+                height: 75%;
+                justify-content: flex-start;
+                overflow: hidden;
+                width: 388px;
+                @media only screen and (max-width: 1235.98px) {
+                    width: 100%;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .logo {
+                    a {
+                        color: white;
+                    }
+                }
+                p {
+                    color: #ffffff;
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 22.6px;
+                    width: 288px;
+                    @media only screen and (max-width: 1235.98px) {
+                        font-size: 13px;
+                        text-align: center;
+                        max-width: 423px;
+                        width: 100%;
+                    }
+                }
+            }
+            .company_links {
+                display: flex;
+                flex: 1 0 0px;
+                height: min-content;
+                justify-content: space-between;
+                @media only screen and (max-width: 809.98px) {
+                    align-items: center;
+                    flex: none;
+                    flex-direction: column;
+                    gap: 32px;
+                    justify-content: center;
+                    width: min-content;
+                }
+                @media only screen and (max-width: 1235.98px) {
+                    width: 100%;
+                }
+
+                .links_items {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 24px;
+                    height: min-content;
+                    justify-content: flex-start;
+                    overflow: hidden;
+                    padding: 0 24px 0 0;
+                    width: min-content;
+                    @media only screen and (max-width: 809.98px) {
+                        align-items: center; 
+                    }
+                    @media only screen and (max-width: 1235.98px) {
+                        padding: 0;
+                    }
+                    h4 {
+                        color: rgb(122, 128, 137);
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 22.5px;
+                        @media only screen and (max-width: 1235.98px) {
+                            font-size: 13px;
+                        }
+                    }
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 14px;
+                        height: min-content;
+                        justify-content: flex-start;
+                        width: min-content;
+                        @media only screen and (max-width: 809.98px) {
+                            align-items: center;
+                        }
+                        li a {
+                            font-size: 14.9px;
+                            font-weight: 500;
+                            color: white;
+                            white-space: nowrap;
+                            text-decoration: none;
+                            transition: all 0.3s ease-in-out;
+                            &:hover {
+                                color: #fb552f;
+                                text-decoration: underline;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer_text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: min-content;
+        padding: 24px 0;
+        width: 100%;
+        p {
+            color: rgb(122, 128, 137);
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 1.4rem;
+            text-align: start;
+            @media only screen and (max-width: 809.98px) {
+                font-size: 12px;
+            }
+            @media (min-width:810px) and (max-width: 1235.98px) {
+                font-size: 13px;
+            }
+        }
+    }
+}
