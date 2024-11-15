@@ -6,10 +6,13 @@
         "runtime": "vercel-php@0.6.0" 
       }
     },
-  "routes": [{
-      "src": "/(.*)",
-      "dest": "/api/index.php"
-  }],
+    "builds": [
+    { "src": "public/**/*", "use": "@vercel/static" },
+    { "src": "resources/**/*", "use": "@vercel/laravel" }
+  ],
+    "routes": [
+      { "src": "/(.*)", "dest": "/public/$1" }
+    ],
   "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "true",
