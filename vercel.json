@@ -1,10 +1,10 @@
 {
   "version": 2,
   "framework": "laravel",
-  "functions": [
+  "builds": [
     { "src": "public/**/*", "use": "@vercel/static" },
     { "src": "api/*.php", "use": "vercel-php@0.6.0" },
-    { "src": "resources/**/*", "use": "@vercel/laravel" }
+    { "src": "artisan", "use": "@vercel/php" }
   ],
   "routes": [
     { "src": "/(.*)", "dest": "/public/$1" }
