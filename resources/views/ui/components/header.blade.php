@@ -2,7 +2,12 @@
     <div class="sticky_header">
         <nav class="navbar">
             <div class="logo">
-                <a href="/ui/home"><img src="{{secure_asset('assets/img/logo.png')}}" alt="logo">Chronify</a>
+                <a href="/ui/home">
+                    <img src="https://raw.githubusercontent.com/fayshalrana/Farmer-clone/main/public/assets/img/logo.png"
+                        alt="logo">
+                    Chronify
+                </a>
+
             </div>
             <nav class="menu_xl">
                 <ul class="manus">
