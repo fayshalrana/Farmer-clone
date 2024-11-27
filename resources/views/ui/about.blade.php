@@ -21,8 +21,8 @@
             <div class="abt_wrapper fade-animation-load-up">
                 <div class="abt-left-section">
                     <div class="abt-img-sec">
-                        <div class="abt-img"><img src="{{secure_asset('assets/img/new1.webp')}}"></div>
-                        <div class="abt-img"><img src="{{secure_asset('assets/img/new2.webp')}}"></div>
+                        <div class="abt-img"><img src="{{ env('BASE_IMAGE_URL') }}assets/img/new1.webp"></div>
+                        <div class="abt-img"><img src="{{ env('BASE_IMAGE_URL') }}assets/img/new2.webp"></div>
                     </div>
                     <div class="abt-content-section">
                         <div class="abt-content-area">
@@ -54,7 +54,7 @@
                 </div>
                 <div class="abt-right-section">
                     <div class="abtr-img">
-                        <img src="{{secure_asset('assets/img/new4.jpg')}}">
+                        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/new4.jpg">
                     </div>
                     <div class="question">
                         <div class="question_info">
@@ -118,22 +118,22 @@
     <div class="abt-client-carousel-inner" role="marquee">
         <div class="abt-client-carousel">
             <div class="abt-client-box">
-                <img src="{{secure_asset('assets/img/abtc-1.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}'assets/img/abtc-1.svg">
             </div>
             <div class="abt-client-box">
-                <img src="{{secure_asset('assets/img/abtc-2.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/abtc-2.svg">
             </div>
             <div class="abt-client-box">
-                <img src="{{secure_asset('assets/img/abtc-3.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/abtc-3.svg">
             </div>
             <div class="abt-client-box">
-                <img src="{{secure_asset('assets/img/abtc-4.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/abtc-4.svg">
             </div>
             <div class="abt-client-box">
-                <img src="{{secure_asset('assets/img/abtc-5.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/abtc-5.svg">
             </div>
             <div class="abt-client-box">
-                <img src="{{secure_asset('assets/img/abtc-6.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/abtc-6.svg">
             </div>
         </div>
     </div>
@@ -145,7 +145,7 @@
         <div class="abt-team">
             <div class="abt-team-box">
                 <div class="abt-team-img">
-                    <img src="{{secure_asset('assets/img/team-1.png')}}">
+                    <img src="{{ env('BASE_IMAGE_URL') }}assets/img/team-1.png">
                 </div>
                 <div class="abt-team-info">
                     <h4>Adam Wilson</h4>
@@ -154,7 +154,7 @@
             </div>
             <div class="abt-team-box">
                 <div class="abt-team-img">
-                    <img src="{{secure_asset('assets/img/team-2.png')}}">
+                    <img src="{{ env('BASE_IMAGE_URL') }}assets/img/team-2.png">
                 </div>
                 <div class="abt-team-info">
                     <h4>Matthew Thompson</h4>
@@ -163,7 +163,7 @@
             </div>
             <div class="abt-team-box">
                 <div class="abt-team-img">
-                    <img src="{{secure_asset('assets/img/team-3.png')}}">
+                    <img src="{{ env('BASE_IMAGE_URL') }}assets/img/team-3.png">
                 </div>
                 <div class="abt-team-info">
                     <h4>Daniel Roberts</h4>
@@ -172,7 +172,7 @@
             </div>
             <div class="abt-team-box">
                 <div class="abt-team-img">
-                    <img src="{{secure_asset('assets/img/team-4.png')}}">
+                    <img src="{{ env('BASE_IMAGE_URL') }}assets/img/team-4.png">
                 </div>
                 <div class="abt-team-info">
                     <h4>James Lee</h4>
@@ -189,5 +189,5 @@
 @endsection
 
 @section('scripts')
-    <script src="{{secure_asset('assets/js/about.js')}}"></script>
+<script src="https://fayshalrana.github.io/Farmer-clone/public/assets/js/about.js"></script>
 @endsection

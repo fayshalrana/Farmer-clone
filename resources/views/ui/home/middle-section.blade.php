@@ -34,7 +34,7 @@
                     <div class="step-info text-start">
                         <div class="steps-info-inner">
                             <div class="icon">
-                                <img src="{{secure_asset('assets/img/step-icon-1.svg')}}" alt="Share Calendar">
+                                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-icon-1.svg " alt="Share Calendar">
                             </div>
                             <h3>Focus Time</h3>
                             <p>Boost your productivity with our Focus Time feature. Effortlessly block out distractions
@@ -44,11 +44,11 @@
                         </div>
                         <div class="steps-info-inner-bottom">
                             <a href="#" class="steps-btn">Learn More <img
-                                    src="{{secure_asset('assets/img/arrow-icon.svg')}}"></a>
+                                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon.svg "></a>
                         </div>
                     </div>
                     <div class="step-image">
-                        <img src="{{secure_asset('assets/img/step-1.svg')}}" alt="Focus Time">
+                        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-1.svg " alt="Focus Time">
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                     <div class="step-info text-start">
                         <div class="steps-info-inner">
                             <div class="icon">
-                                <img src="{{secure_asset('assets/img/step-icon-2.svg')}}" alt="Share Calendar">
+                                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-icon-2.svg " alt="Share Calendar">
                             </div>
                             <h3>Meeting</h3>
                             <p>Say goodbye to scheduling headaches. Our Meeting feature streamlines the process of
@@ -67,11 +67,11 @@
                         </div>
                         <div class="steps-info-inner-bottom">
                             <a href="#" class="steps-btn">Learn More <img
-                                    src="{{secure_asset('assets/img/arrow-icon.svg')}}"></a>
+                                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon.svg "></a>
                         </div>
                     </div>
                     <div class="step-image">
-                        <img src="{{secure_asset('assets/img/step-2.svg')}}" alt="Meeting">
+                        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-2.svg " alt="Meeting">
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <div class="step-info text-start">
                         <div class="steps-info-inner">
                             <div class="icon">
-                                <img src="{{secure_asset('assets/img/step-icon-3.svg')}}" alt="Share Calendar">
+                                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-icon-3.svg " alt="Share Calendar">
                             </div>
                             <h3>Schedule</h3>
                             <p>Take control of your schedule with our intuitive Schedule feature. Effortlessly plan your
@@ -90,11 +90,11 @@
                         </div>
                         <div class="steps-info-inner-bottom">
                             <a href="#" class="steps-btn">Learn More <img
-                                    src="{{secure_asset('assets/img/arrow-icon.svg')}}"></a>
+                                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon.svg "></a>
                         </div>
                     </div>
                     <div class="step-image">
-                        <img src="{{secure_asset('assets/img/step-3.svg')}}" alt="Schedule">
+                        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-3.svg " alt="Schedule">
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     <div class="step-info text-start">
                         <div class="steps-info-inner">
                             <div class="icon">
-                                <img src="{{secure_asset('assets/img/step-icon-4.svg')}}" alt="Share Calendar">
+                                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-icon-4.svg " alt="Share Calendar">
                             </div>
                             <h3>Share Calendar</h3>
                             <p>Collaboration made simple. Our Share Calendar feature lets you easily share your
@@ -113,11 +113,11 @@
                         </div>
                         <div class="steps-info-inner-bottom">
                             <a href="#" class="steps-btn">Learn More <img
-                                    src="{{secure_asset('assets/img/arrow-icon.svg')}}"></a>
+                                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon.svg "></a>
                         </div>
                     </div>
                     <div class="step-image">
-                        <img src="{{secure_asset('assets/img/step-4.svg')}}" alt="Share Calendar">
+                        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/step-4.svg " alt="Share Calendar">
                     </div>
                 </div>
             </div>
@@ -129,36 +129,38 @@
     <div class="lr-left-sec fade-in-from-left">
         <div class="lr-left-inner-top">
             <div class="icon">
-                <img src="{{secure_asset('assets/img/sec-icon-1.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/sec-icon-1.svg ">
             </div>
             <h3>Take a deep dive into <span>your performance</span> with effortless insights.</h3>
             <p>Gain valuable insights into your productivity and make data-driven decisions with our comprehensive
                 meeting reports. </p>
         </div>
         <div class="lr-left-inner-bottom">
-            <a href="#" class="lr-btn">Learn More <img src="{{secure_asset('assets/img/arrow-icon-black.svg')}}"></a>
+            <a href="#" class="lr-btn">Learn More <img
+                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon-black.svg "></a>
         </div>
     </div>
     <div class="lr-right-sec fade-in-from-right">
-        <img src="{{secure_asset('assets/img/sec-1.svg')}}">
+        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/sec-1.svg ">
     </div>
 </section>
 
 <section class="lr-section lr-reverse-mob">
     <div class="lr-right-sec fade-in-from-left">
-        <img src="{{secure_asset('assets/img/sec-2.svg')}}">
+        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/sec-2.svg ">
     </div>
     <div class="lr-left-sec fade-in-from-right">
         <div class="lr-left-inner-top">
             <div class="icon">
-                <img src="{{secure_asset('assets/img/sec-icon-2.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/sec-icon-2.svg ">
             </div>
             <h3>Supercharge your productivity by utilizing <span class="orange">a remarkable to-do list.</span></h3>
             <p>Simplify your life with our productivity calendar app that seamlessly integrates your to-do list into
                 your daily schedule.</p>
         </div>
         <div class="lr-left-inner-bottom">
-            <a href="#" class="lr-btn">Learn More <img src="{{secure_asset('assets/img/arrow-icon-black.svg')}}"></a>
+            <a href="#" class="lr-btn">Learn More <img
+                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon-black.svg "></a>
         </div>
     </div>
 </section>
@@ -167,17 +169,18 @@
     <div class="lr-left-sec fade-in-from-left">
         <div class="lr-left-inner-top">
             <div class="icon">
-                <img src="{{secure_asset('assets/img/sec-icon-3.svg')}}">
+                <img src="{{ env('BASE_IMAGE_URL') }}assets/img/sec-icon-3.svg ">
             </div>
             <h3>Share your availability for <span class="green">better collaboration</span> seamlessly.</h3>
             <p>Simplify scheduling by easily sharing your availability with others using our intuitive productivity
                 calendar app.</p>
         </div>
         <div class="lr-left-inner-bottom">
-            <a href="#" class="lr-btn">Learn More <img src="{{secure_asset('assets/img/arrow-icon-black.svg')}}"></a>
+            <a href="#" class="lr-btn">Learn More <img
+                    src="{{ env('BASE_IMAGE_URL') }}assets/img/arrow-icon-black.svg "></a>
         </div>
     </div>
     <div class="lr-right-sec fade-in-from-right">
-        <img src="{{secure_asset('assets/img/sec-3.svg')}}">
+        <img src="{{ env('BASE_IMAGE_URL') }}assets/img/sec-3.svg ">
     </div>
 </section>

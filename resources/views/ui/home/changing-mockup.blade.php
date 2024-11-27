@@ -5,7 +5,7 @@
             <div class="shadow_img">
                 <div class="frame">
                     <div class="Dynamic_Island"></div>
-                    <img class="" src="{{secure_asset('assets/img/mockup.svg')}}" alt="" srcset="">
+                    <img class="" src="{{ env('BASE_IMAGE_URL') }}assets/img/mockup.svg " alt="" srcset="">
                 </div>
             </div>
         </div>

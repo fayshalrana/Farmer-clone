@@ -3,8 +3,7 @@
         <nav class="navbar">
             <div class="logo">
                 <a href="/ui/home">
-                    <img src="https://raw.githubusercontent.com/fayshalrana/Farmer-clone/main/public/assets/img/logo.png"
-                        alt="logo">
+                    <img src="{{ env('BASE_IMAGE_URL') }}assets/img/logo.png" alt="logo">
                     Chronify
                 </a>
 

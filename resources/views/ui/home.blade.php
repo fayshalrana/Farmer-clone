@@ -23,5 +23,5 @@
 @endsection
 
 @section('scripts')
-  <script src="{{secure_asset('assets/js/home.js')}}"></script>
+<script src="https://fayshalrana.github.io/Farmer-clone/public/assets/js/home.js"></script>
 @endsection
