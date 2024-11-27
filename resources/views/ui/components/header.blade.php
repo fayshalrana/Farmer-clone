@@ -2,7 +2,7 @@
     <div class="sticky_header">
         <nav class="navbar">
             <div class="logo">
-                <a href="/ui/home">
+                <a href="/">
                     <img src="{{ env('BASE_IMAGE_URL') }}assets/img/logo.png" alt="logo">
                     Chronify
                 </a>
